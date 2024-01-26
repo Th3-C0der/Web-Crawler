@@ -36,7 +36,8 @@ def crawl_web(url, depth=2):
                             recursive_crawl(absolute_url, current_depth + 1)
 
                 content = response.content
-                zip_file.writestr(f"{current_url.replace('/', '_')}.html", content)
+                file_name = current_url.rsplit('/', 1)[-1].replace('/', '_') + ".html"
+                zip_file.writestr(file_name, content)
 
             except Exception as e:
                 pass
