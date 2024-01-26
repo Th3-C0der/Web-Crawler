@@ -3,7 +3,7 @@
 
 ## About Tool:
 - This Tool Crawls The Given URL/Domain And Collects The HTML File Of Each WebPage And Compresses The Files In Zip Archive For Downloading.
-- My First Ever Tool That I Created Completely By Myself & Ai ^_^
+- My First Original Tool ^_^
 
 
 ## INSTALLATION :
