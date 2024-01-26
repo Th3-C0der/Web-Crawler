@@ -12,15 +12,15 @@
 * `apt upgrade`
 * `pkg install python`
 * `pkg install git`
-* `git clone https://github.com/Th3-C0der/WebCrawler`
+* `git clone https://github.com/Th3-C0der/Web-Crawler`
 * `ls`
-* `cd WebCrawler`
+* `cd Web-Crawler`
 * `pip install -r requirements.txt`
 * `python app.py`
 
 ## RUN!:
 
-* `cd WebCrawler`
+* `cd Web-Crawler`
 * `python app.py`
 * Open This Url On Your Browser`http://127.0.0.1:5000`
 
