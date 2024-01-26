@@ -2,7 +2,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Rubik+Glitch&pause=1000&color=00FF00&random=false&width=435&lines=WebCrawler+By+%5BTh3-C0der%5D)](https://th3-c0der.github.io)
 
 ## About Tool:
-- This Tool Crawls The Given URL/Domain And Collects The HTML File Of Each WebPage And Compresses The Files In Zip Archive For Downloading.
+- This Tool Crawls The Given URL/Domain And Collects The HTML File Of Each WebPage And Compresses Them Into Zip Archive For Downloading.
 - My First Original Tool ^_^
 
 
