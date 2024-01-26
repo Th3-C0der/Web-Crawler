@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Crawler by Th3-C0der</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1px;
+            color: #00ff00;
+        }
+
+        h4 {
+            text-align: center;
+            animation: hoverLoop 3.8s infinite alternate;
+        }
+
+        @keyframes hoverLoop {
+            0% {
+                transform: scale(1);
+                color: #000;
+            }
+
+            100% {
+                transform: scale(1.1);
+                color: #00ff00;
+            }
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            color: #00ff00;
+        }
+
+        input {
+            margin-bottom: 15px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #00ff00;
+            border-color: #00ff00;
+        }
+
+        button:hover {
+            background-color: #009900;
+            border-color: #009900;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            max-width: 20%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="https://img1.wsimg.com/isteam/ip/fe671351-6f24-41a1-9382-e1e502b566f0/1000035623.png" alt="Web Crawler Logo">
+        <h1>Web Crawler</h1>
+        <h4>By Th3-C0der</h4>
+        <form action="/crawl" method="post">
+            <div class="form-group">
+                <label for="url">URL:</label>
+                <input type="text" class="form-control" id="url" name="url" value="https://" required>
+            </div>
+            <div class="form-group">
+                <label for="depth">Crawling Depth:</label>
+                <input type="number" class="form-control" id="depth" name="depth" min="1" value="2" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Crawl</button>
+        </form>
+    </div>
+
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('form').addEventListener('submit', function() {
+            alert("Crawling Started! ^_^ Files Will Automatically Get Downloaded! Press OK To Continue!");
+        });
+    });
+</script>
+    
+</body>
+</html>
