@@ -8,9 +8,9 @@
 
 ## INSTALLATION :
 
-* `apt update`
-* `apt upgrade`
-* `pkg install python`
+* `apt update -y`
+* `apt upgrade -y`
+* `pkg install python -y`
 * `pkg install git`
 * `git clone https://github.com/Th3-C0der/Web-Crawler`
 * `ls`
