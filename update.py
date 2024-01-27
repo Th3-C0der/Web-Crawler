@@ -8,8 +8,6 @@ R = "\033[1;41m"
 Y = "\033[1;43m"
 B = "\033[1;44m"
 w = "\033[1;37m"
-g = "\033[0;90m"
-y = r
 
 #----------------modules
 from os import system,name
@@ -20,11 +18,11 @@ from time import sleep
 system('cls' if name=='nt' else 'clear')
 
 #-------update
-
-system('rm -rf app.py')
+system('cd ..')
+system('rm -rf Web-Crawler')
 sleep(0.1)
-
-system('wget https://raw.githubusercontent.com/Th3-C0der/Web-Crawler/main/app.py')
+system('git clone https://github.com/Th3-C0der/Web-Crawler')
+system('cd Web-Crawler')
 print(r+"└─ "+r+"\033[1;37m>> Script Updated <<")
 print(r+"└─ "+g+"\033[1;37m>> Now Run Tool Using <<")
 print(r+"└─ "+b+"\033[1;37m>> python app.py <<")
