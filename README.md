@@ -24,4 +24,8 @@
 * `python app.py`
 * Open This Url On Your Browser`http://127.0.0.1:5000`
 
+## UPDATE :
+
+* To Update Script →`python update.py`
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Th3-C0der&label=Profile%20views&color=00ff00&style=flat" alt="Th3-C0der" /> </p>
