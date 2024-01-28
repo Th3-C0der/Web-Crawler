@@ -16,12 +16,12 @@
 * `ls`
 * `cd Web-Crawler`
 * `pip install -r requirements.txt`
-* `python app.py`
+* `python main.py`
 
 ## RUN!:
 
 * `cd Web-Crawler`
-* `python app.py`
+* `python main.py`
 * Open This Url On Your Browser`http://127.0.0.1:5000`
 
 ## UPDATE :
