@@ -62,7 +62,7 @@ def crawl():
     depth = int(request.form['depth'])
     zip_data, website_name = crawl_web(url_to_crawl, depth)
 
-    return send_file(BytesIO(zip_data), download_name=f'Th3-Crawled-Data-{website_name}.zip', as_attachment=True)
+    return send_file(BytesIO(zip_data), download_name=f'Th3-{website_name}.zip', as_attachment=True)
 
 if __name__ == '__main__':
     socketio.run(app, debug=True)
