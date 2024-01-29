@@ -1,4 +1,4 @@
-Flask==3.0.1
-Flask-SocketIO==5.3.6
-requests==2.31.0
-beautifulsoup4==4.12.3
+Flask
+Flask-SocketIO
+requests
+beautifulsoup4
