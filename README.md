@@ -16,7 +16,6 @@
 * `ls`
 * `cd Web-Crawler`
 * `pip install -r requirements.txt`
-* `python main.py`
 
 ## RUN!:
 
